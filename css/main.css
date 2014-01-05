@@ -35,10 +35,21 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 
-.home {
-	position: absolute;
-	width: 480px;
-	height: 600px;
-	left: 80px;
-	top: 20%;
+
+
+@media all and (max-width: 480px){
+	.home {
+		position: relative;
+		padding: 20px;
+	}
+}
+
+@media all and (min-width: 481px){
+	.home {
+		position: absolute;
+		width: 480px;
+		height: 600px;
+		left: 80px;
+		top: 20%;
+	}
 }
